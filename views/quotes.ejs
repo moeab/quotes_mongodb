@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quotes revisited</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Here are the awsome quotes</h1>
+	<div id="quotes">
+		<% for (var x in quotes) { %>
+		<h3>"<%=  quotes[x].quote %>"</h3>
+		<p><%= '-' + quotes[x].name + ' at '  + quotes[x].date  %></p>
+		<hr>
+		<% } %>
+	</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"name" : "quotes_revisited",
+	"description" : "using Mongoose with MondoDB",
+	"dependencies" : {
+		"express" : "latest",
+		"mongoose" : "latest",
+		"ejs" : "latest",
+		"body-parser" : "latest"
+	}
+}
